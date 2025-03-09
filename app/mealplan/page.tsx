@@ -59,8 +59,6 @@ const MealPlanPage: FC = () => {
     [mutate]
   );
 
-  console.log(data);
-
   return (
     <Card className="mt-10 py-0 overflow-hidden">
       <CardContent className="p-0">

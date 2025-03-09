@@ -19,7 +19,7 @@ export async function POST(request: NextRequest) {
       await request.json();
 
     const prompt = `
-      You are a professional nutritionist. Create a ${days}-day meal plan for an individual following a ${dietType} diet aiming for ${calories} calories per day.
+      You are a professional nutritionist. Create a ${days}-day meal plan for an individual following a ${dietType} diet aiming for exactly ${calories} calories per day.
       
       Allergies or restrictions: ${allergies || "none"}.
       Preferred cuisine: ${cuisine || "no preference"}.
