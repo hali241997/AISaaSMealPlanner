@@ -69,7 +69,7 @@ const MealPlanForm: FC<MealPlanFormProps> = ({ isPending, onSubmit }) => {
             onValueChange={(value) => setCalories(value[0])}
             min={500}
             max={15000}
-            step={1}
+            step={50}
           />
         </div>
 
